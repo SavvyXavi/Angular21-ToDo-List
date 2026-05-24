@@ -1,4 +1,4 @@
 <div>
-    <input type="text" placeholder="Enter a task">
-    <button>Add</button>
+    <input [formControl]="newTask" placeholder="Enter a task">
+    <button (click)="submitTodo()">Add</button>
 </div>
