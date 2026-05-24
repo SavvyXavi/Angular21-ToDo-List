@@ -20,4 +20,8 @@ export class App {
     }
   }
 
+  handleDeletedTodo(index: number) {
+    this.todos.splice(index, 1);
+  }
+
 }
